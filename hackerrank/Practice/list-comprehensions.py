@@ -3,7 +3,7 @@
 // Language: pypy3
 // Verdict: Accepted
 // URL: https://www.hackerrank.com/challenges/list-comprehensions/problem?isFullScreen=true
-// Solved on: 2026-10-27T14:35:00.614Z
+// Solved on: 2026-10-27T14:51:06.799Z
 
 if __name__ == '__main__':
     x = int(input())
