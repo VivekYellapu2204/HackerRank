@@ -3,7 +3,7 @@
 // Language: pypy3
 // Verdict: Accepted
 // URL: https://www.hackerrank.com/challenges/py-hello-world/problem?isFullScreen=true
-// Solved on: 2026-10-27T14:35:55.610Z
+// Solved on: 2026-10-27T14:36:03.467Z
 
 if __name__ == '__main__':
-    print("")
+    print("Hello, World!")
