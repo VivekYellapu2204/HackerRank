@@ -1,19 +1,19 @@
 // Problem: Designer Door Mat
 // Platform: hackerrank
-// Language: python3
+// Language: pypy3
 // Verdict: Accepted
 // URL: https://www.hackerrank.com/challenges/designer-door-mat/problem?isFullScreen=true
-// Solved on: 2026-10-27T14:55:35.788Z
+// Solved on: 2026-10-27T14:55:42.152Z
+
 
 n, m = map(int, input().split())
 
-# Top half
-for i in range(1, n, 2):
-    print(('.|.' * i).center(m, '-'))
+for i in range(n // 2):
+    pattern = '.|.' * (2 * i + 1)
+    print(pattern.center(m, '-'))
 
-# Middle line
 print('WELCOME'.center(m, '-'))
 
-# Bottom half
-for i in range(n - 2, 0, -2):
-    print(('.|.' * i).center(m, '-'))
+for i in range(n // 2 - 1, -1, -1):
+    pattern = '.|.' * (2 * i + 1)
+    print(pattern.center(m, '-'))
