@@ -3,7 +3,7 @@
 // Language: pypy3
 // Verdict: Accepted
 // URL: https://www.hackerrank.com/challenges/default-arguments/problem?isFullScreen=true
-// Solved on: 2026-10-27T15:16:24.081Z
+// Solved on: 2026-10-27T15:16:33.161Z
 
 
 class EvenStream:
@@ -11,20 +11,25 @@ class EvenStream:
         self.current = 0
 
     def get_next(self):
+        to_return = self.current
         self.current += 2
-        return self.current - 2
+        return to_return
 
 
 class OddStream:
     def __init__(self):
-        self.current = -1
+        self.current = 1
 
     def get_next(self):
+        to_return = self.current
         self.current += 2
-        return self.current
+        return to_return
 
 
-def print_from_stream(n, stream=EvenStream()):
+def print_from_stream(n, stream=None):
+    if stream is None:
+        stream = EvenStream()
+
     for _ in range(n):
         print(stream.get_next())
 
