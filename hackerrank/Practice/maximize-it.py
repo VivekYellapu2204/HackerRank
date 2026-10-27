@@ -3,7 +3,7 @@
 // Language: pypy3
 // Verdict: Accepted
 // URL: https://www.hackerrank.com/challenges/maximize-it/problem?isFullScreen=true
-// Solved on: 2026-10-27T15:17:38.046Z
+// Solved on: 2026-10-27T15:20:35.543Z
 
 
 from itertools import product
