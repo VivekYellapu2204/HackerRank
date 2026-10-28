@@ -3,7 +3,7 @@
 // Language: pypy3
 // Verdict: Accepted
 // URL: https://www.hackerrank.com/challenges/symmetric-difference/problem?isFullScreen=true
-// Solved on: 2026-10-28T15:36:37.535Z
+// Solved on: 2026-10-28T15:36:50.478Z
 
 
 M = int(input())
